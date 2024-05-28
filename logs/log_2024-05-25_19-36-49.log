@@ -1,0 +1,91 @@
+
+-----
+Test: Utilits/test_creation new place.py::Test_create_place::test_create_new_place (call)
+Time: 2024-05-25 19:36:49.595301
+Request method: POST
+Request URL: https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+
+Status code: 200
+Response text: {"status":"OK","place_id":"a144dd479fc426936838804ab14f5045","scope":"APP","reference":"5d8d3bc68caace1d538972fa93b37d8b5d8d3bc68caace1d538972fa93b37d8b","id":"5d8d3bc68caace1d538972fa93b37d8b"}
+Response headers: {'Date': 'Sat, 25 May 2024 17:36:51 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '194', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+-----
+
+-----
+Test: Utilits/test_creation new place.py::Test_create_place::test_create_new_place (call)
+Time: 2024-05-25 19:36:50.703514
+Request method: GET
+Request URL: https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=a144dd479fc426936838804ab14f5045
+
+Status code: 200
+Response text: {"location":{"latitude":"-38.383494","longitude":"33.427362"},"accuracy":"50","name":"Frontline house","phone_number":"(+91) 983 893 3937","address":"29, side layout, cohen 09","types":"shoe park,shop","website":"http:\/\/google.com","language":"French-IN"}
+Response headers: {'Date': 'Sat, 25 May 2024 17:36:52 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '257', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+-----
+
+-----
+Test: Utilits/test_creation new place.py::Test_create_place::test_create_new_place (call)
+Time: 2024-05-25 19:36:52.469407
+Request method: PUT
+Request URL: https://rahulshettyacademy.com/maps/api/place/update/json?key=qaclick123
+
+Status code: 200
+Response text: {"msg":"Address successfully updated"}
+Response headers: {'Date': 'Sat, 25 May 2024 17:36:54 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '38', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+-----
+
+-----
+Test: Utilits/test_creation new place.py::Test_create_place::test_create_new_place (call)
+Time: 2024-05-25 19:36:54.801204
+Request method: GET
+Request URL: https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=a144dd479fc426936838804ab14f5045
+
+Status code: 200
+Response text: {"location":{"latitude":"-38.383494","longitude":"33.427362"},"accuracy":"50","name":"Frontline house","phone_number":"(+91) 983 893 3937","address":"SWINSKA ULICA","types":"shoe park,shop","website":"http:\/\/google.com","language":"French-IN"}
+Response headers: {'Date': 'Sat, 25 May 2024 17:36:56 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '245', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+-----
+
+-----
+Test: Utilits/test_creation new place.py::Test_create_place::test_create_new_place (call)
+Time: 2024-05-25 19:36:56.739188
+Request method: Delete
+Request URL: https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+
+Status code: 200
+Response text: {"status":"OK"}
+Response headers: {'Date': 'Sat, 25 May 2024 17:36:58 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '15', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+-----
+
+-----
+Test: Utilits/test_creation new place.py::Test_create_place::test_create_new_place (call)
+Time: 2024-05-25 19:36:59.117040
+Request method: Delete
+Request URL: https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+
+Status code: 404
+Response text: {"msg":"Delete operation failed, looks like the data doesn't exists"}
+Response headers: {'Date': 'Sat, 25 May 2024 17:37:00 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '69', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+-----
+
+-----
+Test: Utilits/test_creation new place.py::Test_create_place::test_create_new_place (call)
+Time: 2024-05-25 19:37:01.494843
+Request method: GET
+Request URL: https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=a144dd479fc426936838804ab14f5045
+
+Status code: 404
+Response text: {"msg":"Get operation failed, looks like place_id  doesn't exists"}
+Response headers: {'Date': 'Sat, 25 May 2024 17:37:03 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '67', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+-----
